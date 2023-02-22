@@ -1,5 +1,3 @@
-package Java_Television_Simulator;
-
 public class Channel {
 
     private String name;
@@ -29,13 +27,10 @@ public class Channel {
 
     @Override
     public String toString() {
-        return "Java_Television_Simulator.Channel{" +
+        return "Channel{" +
                 "name='" + name + '\'' +
                 ", channelNo=" + channelNo +
                 '}';
     }
 
 }
-
-
-
